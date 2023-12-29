@@ -1,0 +1,9 @@
+.Logo__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Logo__Title{
+    font-weight: 900;
+    margin-left: 5px;
+}

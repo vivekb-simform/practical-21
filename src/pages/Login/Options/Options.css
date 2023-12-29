@@ -1,0 +1,20 @@
+.Options-wrapper {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+    color: #0062FF;
+}
+
+.Options-wrapper__Link {
+    color: #0062FF;
+    font-family: Roboto Medium;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.Options-wrapper__Link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+.Menu-wrapper {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+.Menu-wrapper__Link {
+    color: white;
+    text-decoration: none;
+}
+
+.Menu-wrapper__Link:hover {
+    text-decoration: underline;
+}

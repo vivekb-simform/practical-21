@@ -1,0 +1,22 @@
+.LoginForm__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 35px 10px 25px 10px;
+    padding: 20px;
+}
+
+.LoginForm__section h3 {
+    color: #171725;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

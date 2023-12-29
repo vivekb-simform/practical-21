@@ -1,0 +1,49 @@
+.Social__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Social__text {
+    margin: 15px 0;
+    color: #92929D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.Social__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 38px;
+    border-radius: 10px;
+    border: 1px solid #F1F1F5;
+    background: #FFF;
+    cursor: not-allowed;
+}
+
+.Social__button:focus {
+    outline: none;
+}
+
+.Social__button span {
+    margin-left: 10px;
+    color: #696974;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.Social__facebook-button {
+    margin-top: 10px;
+}

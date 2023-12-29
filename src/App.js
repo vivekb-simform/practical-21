@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import React from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+const Login = React.lazy(() => import("../src/pages/Login"));
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/login",
+      element: <Login />,
+    },
+  ]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Suspense fallback={<div>is Loading..</div>}>
+      <RouterProvider router={router} />
+    </React.Suspense>
   );
 }
 
